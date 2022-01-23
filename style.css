@@ -1,0 +1,54 @@
+body{
+      margin: 0;
+      background-color: maroon;
+
+}
+header{
+	background-color: orange;
+	text-align: center;
+	padding: 4px 0px 4px 0px;
+	color: maroon;
+	font-family: "Times New Roman";
+}
+header a{
+	color: maroon;
+	text-align: center;
+}
+nav{
+	overflow: hidden;
+	background-color: maroon;
+	padding:  10;
+}
+nav a{
+	text-decoration: none;
+	color: orange;
+	padding: 10px;
+
+}
+nav a:hover{
+background-color: orange;
+color: maroon;
+}
+
+footer{
+	text-align: center;
+	color: orange;
+	clear: both;
+}/*class vitra ko lai css ma use garna ko lagi agadi . chhahincha */
+.column{
+float: left;
+padding: 12px;
+}
+
+.column.side{
+width: 75%;
+color: orange;
+}
+.column.middle{
+	width: 75%;
+	color: orange;
+}
+h3,p{
+	text-align: center;
+
+}
